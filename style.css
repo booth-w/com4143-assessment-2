@@ -22,3 +22,10 @@ body {
 	color: #cccccc;
 	padding-left: 20px
 }
+
+.car-image {
+	width: 80%;
+	height: auto;
+	margin-top: 20px;
+	float: right;
+}
