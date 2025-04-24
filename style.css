@@ -1,5 +1,8 @@
 :root {
 	--colour-background: #22262b;
+	--colour-text-light: #ffffff;
+	--colour-text-light-2: #cccccc;
+	--colour-text-dark: #22262b;
 }
 
 html, body {
@@ -12,20 +15,37 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .title {
-	color: #ffffff;
+	color: var(--colour-text-light);
 	font-size: 2em;
 	font-weight: 600;
 	padding: 40px;
 }
 .description {
-	color: #cccccc;
+	color: var(--colour-text-light-2);
 	padding-left: 20px
 }
 
 .car-image {
-	width: 80%;
+	width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 40px;
 	float: right;
+}
+
+.start-button {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	color: var(--colour-text-dark);
+	font-weight: 600;
+	border-radius: 999px;
+	font-size: 1.5em;
+	padding: 0.5em 2em;
 }
