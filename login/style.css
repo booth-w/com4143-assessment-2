@@ -14,7 +14,7 @@ body {
 
 .login-container {
 	display: flex;
-	margin-top: 240px;
+	margin-top: 70vw;
 	align-items: center;
 	flex-direction: column;
 }
