@@ -67,7 +67,12 @@ input::placeholder {
 	font-weight: 600;
 	border-radius: 999px;
 	font-size: 1.5em;
+	white-space: nowrap;
 	padding: 0.5em 2em;
 	margin: 0 auto;
 	margin-top: 20px;
+}
+
+.signup-button {
+	font-size: 0.9em;
 }
