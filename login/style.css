@@ -33,3 +33,41 @@ body {
 	background-color: var(--colour-background);
 	margin-top: 0.4em;
 }
+
+.login-form {
+	display: flex;
+	background-color: var(--colour-background);
+	flex-direction: column;
+	width: 80%;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 20px;
+}
+input {
+	background-color: var(--colour-background);
+	border: none;
+	color: var(--colour-text-light);
+	font-size: 1.1em;
+}
+input::placeholder {
+	color: var(--colour-text-light-2);
+}
+.input-underline {
+	background-color: var(--colour-text-light-2);
+	margin-bottom: 20px;
+	height: 2px;
+	width: 100%;
+	margin-top: 5px;
+}
+.login-button, .signup-button {
+	background-color: #ffffff;
+	color: var(--colour-text-dark);
+	text-align: center;
+	width: 5rem;
+	font-weight: 600;
+	border-radius: 999px;
+	font-size: 1.5em;
+	padding: 0.5em 2em;
+	margin: 0 auto;
+	margin-top: 20px;
+}
