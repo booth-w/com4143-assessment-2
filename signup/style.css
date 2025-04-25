@@ -1,0 +1,14 @@
+.top-square {
+	top: -80vw;
+}
+
+.login-container {
+	margin-top: 50vw;
+}
+
+.login-button {
+	font-size: 0.9rem;
+}
+.signup-button {
+	font-size: 1.5rem;
+}
